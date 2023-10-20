@@ -10,43 +10,55 @@
     <div class="container">
         <h1>Spor Haberleri</h1>
        <main>
-        <div class="content content1">
+        <a href="https://www.tff.org/default.aspx?pageID=95" class="content content1">
+            <div class="box box1">
             <img src="./ASS-5/amillitakim.jfif" alt="">
             <div class="information">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, corrupti.</p>
-                <h3>Türkiye</h3>
+                <p>Türkiye</p>
             </div>
         </div>
-        <div class="content content2">
+    </a>
+
+        <a href="https://www.tff.org/default.aspx?pageID=95" class="content content2">
+            <div class="box box2">
             <img src="./ASS-5/takim.jfif" alt="">
             <div class="information">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, corrupti.</p>
-                <h3>Türkiye</h3>
-            </div></div>
-        <div class="content content3">
+                <p>Türkiye</p>
+            </div>
+        </div>
+
+        <a href="https://www.tff.org/default.aspx?pageID=95" class="content content3">
+        <div class="box box3">
             <img src="./ASS-5/tr-ltv.jpg" alt="">
             <div class="information">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, corrupti.</p>
-                <h3>Türkiye</h3>
-            </div></div>
-        <div class="content content4">
+                <p>Türkiye</p>
+            </div>
+        </div>
+    </a>
+        <a href="https://www.tff.org/default.aspx?pageID=95" class="content content4"><div class="box box4">
             <img src="./ASS-5/indir.jfif" alt="">
             <div class="information">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, corrupti.</p>
-                <h3>Türkiye</h3>
-            </div></div>
-        <div class="content content5">
+                <p>Türkiye</p>
+            </div></div></a>
+            <a href="https://www.tff.org/default.aspx?pageID=95" class="content content5">
+        <div class="box box5">
             <img src="./ASS-5/images.jfif" alt="">
             <div class="information">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, corrupti.</p>
-                <h3>Türkiye</h3>
-            </div></div>
-        <div class="content content6">
+                <p>Türkiye</p>
+            </div></div></a>
+
+        <a href="https://www.tff.org/default.aspx?pageID=95" class="content content6"><div class="box box6">
             <img src="./ASS-5/millitakim.jfif" alt="">
             <div class="information">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, corrupti.</p>
-                <h3>Türkiye</h3>
-            </div></div>
+                <p>Türkiye</p>
+            </div></div></a>
+        
         <!-- <div class="content content7">
             <img src="" alt="">
             <div class="information">
@@ -61,5 +73,53 @@
             </div></div> -->
        </main>
     </div>
+    <script>
+        const box1 = document.querySelector(".box1 img");
+        const box2 = document.querySelector(".box2 img");
+        const box3 = document.querySelector(".box3 img");
+        const box4 = document.querySelector(".box4 img");
+        const box5 = document.querySelector(".box5 img");
+        const box6 = document.querySelector(".box6 img");
+        box1.addEventListener("mouseover", () => {
+            box1.src = "https://image.fanatik.com.tr/i/fanatik/75/0x410/65242ac880a0391c4cf63048.jpg";
+        });
+        box1.addEventListener("mouseout", () => {
+            box1.src = "https://image.hurimg.com/i/hurriyet/75/750x422/652db9b64e3fe01f785ccf4c.jpg";
+        });
+
+        box2.addEventListener("mouseover", () => {
+            box2.src = "https://image.fanatik.com.tr/i/fanatik/75/0x410/65291e2980a0331f58e8aa8a.jpg";
+        });
+        box2.addEventListener("mouseout", () => {
+            box2.src = "https://image.fanatik.com.tr/i/fanatik/75/0x410/65242ac880a0391c4cf63048.jpg";
+        });
+        box3.addEventListener("mouseover", () => {
+            box3.src = "./ASS-5/Flag.png";
+        });
+        box3.addEventListener("mouseout", () => {
+            box3.src = "https://cdn.ntvspor.net/335cd9986f4d4c198353d83dc07bb4ea.jpg?mode=crop&w=940&h=626";
+        });
+
+        box4.addEventListener("mouseover", () => {
+            box4.src = "./ASS-5/Flag.png";
+        });
+        box4.addEventListener("mouseout", () => {
+            box4.src = "https://image.hurimg.com/i/hurriyet/75/750x422/650d53d34e3fe01ee858e699.jpg";
+        });
+
+        box5.addEventListener("mouseover", () => {
+            box5.src = "./ASS-5/Flag.png";
+        });
+        box5.addEventListener("mouseout", () => {
+            box5.src = "https://image.fanatik.com.tr/i/fanatik/75/0x410/64d9657d80a0331e4cad8c83.jpg";
+        });
+
+        box6.addEventListener("mouseover", () => {
+            box6.src = "./ASS-5/Flag.png";
+        });
+        box6.addEventListener("mouseout", () => {
+            box6.src = "https://image.fanatik.com.tr/i/fanatik/75/0x410/64c97dc080a0323578c70e05.jpg";
+        });
+    </script>
 </body>
 </html>
